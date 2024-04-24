@@ -1,2 +1,3 @@
 # ViciDial Group
-ViciDial - lista las extensiones disponibles para agentes o supervisores
+ViciDial - muestra las extensiones disponibles para agentes o supervisores
+
