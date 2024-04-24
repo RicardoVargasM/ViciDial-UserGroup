@@ -1,2 +1,2 @@
-# vicidial-usergroup
-ViciDial - lista las extensiones disponibles
+# ViciDial Group
+ViciDial - lista las extensiones disponibles para agentes o supervisores
