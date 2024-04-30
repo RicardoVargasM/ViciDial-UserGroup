@@ -7,7 +7,7 @@ Creamos el usuario de conexion hacia la base de datos, si el sistema ViciDial es
 ```
 mysql
 ```
-En el CLI de MySQL creamos el usuario de conexion hacia la base de datos, en este caso es consult, la clave es potestativa, si el sistema ViciDial es distribuido cambiamos 'localhost' por la IP del servidor de acceso Web
+En el CLI de MySQL creamos el usuario de conexion hacia la base de datos, en este caso es consult, la clave es potestativa, si el sistema ViciDial es distribuido cambiamos **'localhost'** por la IP del servidor de acceso Web
 ```
 CREATE USER 'consult'@'localhost' IDENTIFIED BY 'clave_acceso';
 ```
@@ -23,8 +23,7 @@ exit;
 
 ## Configuracion Web
 
-Ubicamos la ruta de acceso web a la 
-plataforma, si el sistema ViciDial es distribuido se debe descargar en el servidor web del cluster
+Ubicamos la ruta de acceso web de la plataforma que se accede mediante el siguiente *comando*. Si el sistema ViciDial es distribuido se debe descargar en el servidor web del cluster
 
 ```
 cd /srv/www/htdocs
