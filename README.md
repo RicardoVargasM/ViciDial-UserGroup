@@ -48,7 +48,7 @@ Modificamos el archivo DB.php con el editor de nuestra preferencia para ingresar
 ```
 vim DB.php
 ```
-En el archivo *DB.php* se modifican los siguientes valores según la configuración que se haya realizado anteriormente, en `'DB_USER' => 'usuario_db`, en `'DB_PASS' => 'contraseña_db`, en `'DB_HOST' => 'ip_or_hostname`. En nuestro caso seria:
+En el archivo *DB.php* se modifican los siguientes valores según la configuración que se haya realizado anteriormente, en `'DB_USER' => 'usuario_db`, en `'DB_PASS' => 'contraseña_db'`, en `'DB_HOST' => 'ip_or_hostname'`. En nuestro caso seria:
 ```
  private $info = [
                             'DB_NAME' => 'asterisk',
