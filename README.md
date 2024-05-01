@@ -2,7 +2,7 @@
 ViciDial - Muestra la lista las extensiones disponibles para agentes o supervisores
 
 ## Creación de usuario en MySql
-Creamos el usuario de conexión hacia la base de datos, si el sistema ViciDial es distribuido se debe ingresar en el database server
+Iniciamos ingresando a la linea de comandos de la base de datos (MySQL - MariaDB), si el sistema ViciDial es distribuido se debe ingresar en el database server
 
 ```
 mysql
