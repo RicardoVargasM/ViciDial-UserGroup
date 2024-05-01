@@ -2,17 +2,17 @@
 ViciDial - Muestra la lista las extensiones disponibles para agentes o supervisores
 
 ## Creación de usuario en MySql
-Iniciamos ingresando a la linea de comandos de la base de datos (MySQL - MariaDB), si el sistema ViciDial es distribuido se debe ingresar en el database server
+Iniciamos ingresando en el *CLI* de la base de datos (MySQL - MariaDB), si el sistema ViciDial es distribuido se debe ingresar en el servidor de base de datos.
 
 ```
 mysql
 ```
-En el CLI de MySQL creamos el usuario de conexión hacia la base de datos, en este caso es **consult**, la clave es potestativa, si el sistema ViciDial es distribuido cambiamos **'localhost'** por la **IP** del servidor de acceso Web
+En el CLI de MySQL creamos el usuario de conexión hacia la base de datos, en este caso es **consult**, la clave es potestativa, si el sistema ViciDial es distribuido cambiamos **'localhost'** por la **IP** del servidor de acceso web.
 ```
 CREATE USER 'consult'@'localhost' IDENTIFIED BY 'clave_acceso';
 ```
 
-Damos permisos de acceso al usuario previamente creado (*consult*) a la base de datos asterisk
+Damos permisos de acceso al usuario previamente creado (*consult*) a la base de datos Asterisk.
 ```
 GRANT ALL PRIVILEGES ON asterisk.* TO 'consult'@'localhost';
 ```
@@ -23,7 +23,7 @@ exit;
 
 ## Configuración Web
 
-Ubicamos la ruta de acceso web de la plataforma que se accede mediante el siguiente *comando*. Si el sistema ViciDial es distribuido se debe descargar en el servidor web del cluster
+Ubicamos la ruta de acceso web de la plataforma que se accede mediante el siguiente *comando*. Si el sistema ViciDial es distribuido se debe descargar en el servidor web del cluster.
 
 ```
 cd /srv/www/htdocs
